@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Label{
+public static void main(String arg[]){
+outer:for(int i=0;i<10;i++){
+inner:for(int j=1;j<10;j++){
+if(j>i){
+System.out.println();
+continue outer;}
+System.out.print(" "+(i*j));
+}
+}
+System.out.println(i+" "+j);
+}
+}

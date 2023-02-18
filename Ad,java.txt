@@ -1,0 +1,13 @@
+public class Ad{
+public static void main(String arg[]){
+int array[]=new int[5];
+array[0]=5;
+array[1]=3;
+array[2]=2;
+array[3]=6;
+array[4]=7;
+for(int i=0;i<array.length;i++){
+System.out.println(array[i]);
+}
+}
+}
